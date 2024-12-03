@@ -42,6 +42,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     MSG msg;
 
+    // Git 테스트
+    int a = 0;
+    int b = 1;
+    int c = a + b;
+
     // 기본 메시지 루프입니다:
     while (GetMessage(&msg, nullptr, 0, 0))
     {
